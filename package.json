@@ -1,0 +1,16 @@
+{
+  "name": "test-folder",
+  "version": "1.0.0",
+  "description": "",
+  "type": "module",
+  "main": "AigentConnector.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "alexandru@aigent.ai",
+  "license": "ISC",
+  "dependencies": {
+    "axios": "^1.1.2",
+    "ws": "^8.8.0"
+  }
+}
