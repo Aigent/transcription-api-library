@@ -8,7 +8,7 @@ const token_endpoint = process.env.KEYCLOAK_TOKEN_ENDPOINT;
 
 const keycloak = new KeycloakConnector(username, password, token_endpoint);
 
-const AIGENT_API_URL = process.env.AIGENT_API_URL || "wss://ingress.aigent.ai/connector";
+const AIGENT_API_URL = process.env.AIGENT_API_URL || "wss://transcription.aigent.ai/connector";
 
 const AUDIO_FILE = process.env.AUDIO_FILE || "audio-file/sentences.wav";
 
