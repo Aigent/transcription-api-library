@@ -2,6 +2,9 @@ import { AigentConnector } from "./AigentConnector.js";
 import fs from "fs";
 import { KeycloakConnector } from "./keycloak.js";
 
+import dotenv from "dotenv";
+dotenv.config();
+
 const username = process.env.KEYCLOAK_SERVICE_USERNAME;
 const password = process.env.KEYCLOAK_SERVICE_PASSWORD;
 const token_endpoint = process.env.KEYCLOAK_TOKEN_ENDPOINT;

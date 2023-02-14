@@ -19,6 +19,8 @@ export KEYCLOAK_SERVICE_PASSWORD="password"
 ```
 from help@aigent.ai
 
+You will put these variables inside a file called `.env` that will be sourced by the application automatically.
+
 This is the url that creates the tokens needed to authenticate.
 ```
 export KEYCLOAK_TOKEN_ENDPOINT="https://auth.aigent.ai/auth/realms/dashboard/protocol/openid-connect/token"
@@ -31,6 +33,7 @@ This is the url of the transcription service:
 ```
 export AIGENT_API_URL="wss://transcription.aigent.ai/connector"
 ```
+
 
 ## Library
 We provide a library that can be used to integrate 
